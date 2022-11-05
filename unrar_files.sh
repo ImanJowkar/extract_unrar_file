@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-files_zip=($(ls | grep -i ef))
+files_zip=($(ls | grep -i "pattern"))
 
 i=1
 for file in "${files_zip[@]}"
